@@ -1,8 +1,49 @@
-/* :root {
+:root {
+    --white:#fff;
+    --black:#000000;
+    --gold: #aa6c39;
+    --charcoal:#36454f;
+}
 
-} */
+body {
+    background-color: var(--white);
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--charcoal);
+}
+
+.container {
+    background-color: var;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 40px;
+    color: var(--gold);
+}
+
+.header div nav {
+    float: right;
+}
+
+.header nav ul li {
+    display: inline-flex;
+    list-style-type: none;
+    font-size: 40px;
+    /* margin-right: 10px; */
+    float: inline-end right;
+}
+
+a {
+    text-decoration: none;
+    color:var(--gold);
+}
 
 .container-image {
+    padding:20px;
     height: auto;
     max-width: 25%;
 }
@@ -11,7 +52,3 @@
     height: auto;
     max-width: 100%;
 }
-
-/* #nav {
-
-} */

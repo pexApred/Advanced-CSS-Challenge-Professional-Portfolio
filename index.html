@@ -16,29 +16,40 @@
 
 <body id="page-top">
     <!-- My Name with Photo -->
-    <header class="name">
+    <header class="header">
+        
         <div class="container">
-            <h1>Emmanuel <span id="Manoli">(Manoli)</span> Lakis</h1>
+            <h1>Emmanuel Lakis</h1>
+
+            <!-- Navigation: Home, About Me, Work, Contact Me, Resume -->   
+            <nav class="nav">
+                <!-- Unordered list of Content-->
+                <ul>
+                    <li><a href= "#page-top"> Home </a></li>
+                    <li><a href= "#about-me"> About Me </a></li>
+                    <li><a href= "#work"> Work </a></li>
+                    <li><a href= "#contact-me"> Contact Me </a></li>
+                    <li><a href= "#resume"> Resume </a></li>
+                 <!-- links above need to scroll to each section associated -->
+                </ul>
+            </nav> 
+
         </div>
-        <div class="container-image">
-            <img src= "assets/images/IMG_3173.JPG" alt= "animated photo of Emmanuel" id= "self">
-        </div>
-    <!-- Navigation: Home, About Me, Work, Contact Me, Resume -->   
-        <nav class="nav">
-            <ul>
-                <li><a href= "#page-top"> Home</a></li>
-                <li><a href= "#about-me"> About Me</a></li>
-                <li><a href= "#work"> Work</a></li>
-                <li><a href= "#contact-me"> Contact Me</a></li>
-                <li><a href= "#resume"> Resume</a></li>
-    <!-- links above need to scroll to each section associated -->
-            </ul>
-        </nav>  
-    <!-- Work Section: titled images of developer's applications: First application should be larger in size then the rest -->
-    <!-- Image of application should have a link to the deployed application -->
-    <!-- Flex-boxes should be present to accomidate viewport, different sizes and devices -->    
+        <!-- Work Section: titled images of developer's applications: First application should be larger in size then the rest -->
+        <!-- Image of application should have a link to the deployed application -->
+        <!-- Flex-boxes should be present to accomidate viewport, different sizes and devices -->    
     </header>
     
+    <div class="container-image">
+        <img src= "assets/images/IMG_3173.JPG" alt= "animated photo of Emmanuel" id= "self">
+    </div>
+
+    <Section>
+        <h2 id="about-me">About Me</h2>
+        <h2 id="my-work">My Work</h2>
+        <h2 id="contact-me">Contact Me</h2>
+        <h2 id="resume">Resume</h2>
+    </Section>
     
 </body>
 </html>
