@@ -19,17 +19,22 @@
     <header class="header">
         
         <div class="container">
-            <h1>Emmanuel Lakis</h1>
-
             <!-- Navigation: Home, About Me, Work, Contact Me, Resume -->   
-            <nav class="nav">
+            <nav class="nav" role="navigation"> 
+                <button type="button" class="button" data-toggle="collapse" aria-controls="nav bar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <!-- Unordered list of Content-->
+                <h1>Emmanuel Lakis</h1>
                 <ul>
-                    <li><a href= "#page-top"> Home </a></li>
-                    <li><a href= "#about-me"> About Me </a></li>
-                    <li><a href= "#work"> Work </a></li>
-                    <li><a href= "#contact-me"> Contact Me </a></li>
-                    <li><a href= "#resume"> Resume </a></li>
+                    <li><a href="#page-top">Home</a></li>
+                    <li><a href="#my-life">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
+                    <li><a href="#resume">Resume</a></li>
                  <!-- links above need to scroll to each section associated -->
                 </ul>
             </nav> 
@@ -41,15 +46,71 @@
     </header>
     
     <div class="container-image">
-        <img src= "assets/images/IMG_3173.JPG" alt= "animated photo of Emmanuel" id= "self">
+        <img src= "assets/images/IMG_3173.JPG" alt= "animated photo of Emmanuel" style="width: 25%;" id= "self">
     </div>
 
-    <Section>
-        <h2 id="about-me">About Me</h2>
-        <h2 id="my-work">My Work</h2>
-        <h2 id="contact-me">Contact Me</h2>
-        <h2 id="resume">Resume</h2>
-    </Section>
+    <Main>
+        <section class="class">
+            <h2 id="my-life">The Way I Am</h2>
+            <!-- <p>The road of yellow bricks.</p> -->
+            <!-- <div class="container-bricks">
+                <img src="https://img.freepik.com/premium-vector/brick-texture-watercolor-stone-decors_1268-12301.jpg" alt="yellow brick road" style="width:40%"> -->
+                <div class="centered">
+                    <h3><div id="the">The Birth</div></h3>
+                    <div>
+                        <p>Γεια σας...! Born in Crete, Greece, raised in Bennettsville, South Carolina, Emmanuel began his life with ...</p>
+                    </div>
+                    <div class="container-education">
+                        <h3>Education</h3>
+                        <p>
+                            <em>Wofford College</em>
+                            <em>2009-2013</em>
+                            Graduated with Bachelor's Degree in Applied Science (B.A.Sc.), Chemistry
+                        </p>
+                        <p>
+                            <em>Johnson & Wales University</em>
+                            <em>2018-2019</em>
+                            Associates degree in Culinary Arts/Chef Training
+                        </p>
+                        <p>
+                            <em>The University of North Carolina at Chapel Hill</em>
+                            <em>Currently Enrolled</em>
+                            The Coding Boot Camp, full-stack web development
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Professional Status</h3>
+                        <p>
+                            Owner & Operator of Pizza Time INC in Bennettsville, SC, Emmanuel has served his community since 2016.
+                        </p>
+                        <p>
+                            Living in Raleigh, NC and getting married to the love of my life in October.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div>
+                <h2 id="work">My Work</h2>
+                <div>
+
+                </div>
+            </div>
+
+            <div class="contact-container">
+                <h2 id="contact-me">Contact Me</h2>
+                <ul>
+                    <li><a href="tel:843.439.0946">843.439.0946</a></li>
+                    <li><a href="mailto:manolilakis@gmail.com">manolilakis@gmail.com</a></li>
+                    <li><a href="https://github.com/pexApred">GitHub</a></li>
+                    <li><a href="https://open.spotify.com/user/1245989088?si=da5fcd47e1554a6e">Spotify</a></li>
+                    <li><a href="https://linkedin.com/in/emmanuellakis">LinkedIn</a></li>
+                </ul>
+            </div>
+
+            <h2 id="resume">Resume</h2>
+        </section>
+    </Main>
     
 </body>
 </html>

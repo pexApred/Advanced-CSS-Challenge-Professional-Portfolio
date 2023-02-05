@@ -1,26 +1,30 @@
 :root {
     --white:#fff;
     --black:#000000;
-    --gold: #aa6c39;
+    --gold: #d5b61e;
     --charcoal:#36454f;
+    --royal-blue:#4169e1;
 }
 
 body {
+    position: relative;
     background-color: var(--white);
 }
 
 .header {
-    padding: 20px;
+    margin: 0;
+    padding: 1%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: var(--charcoal);
+    background-color: var(--white);
 }
 
 .container {
-    background-color: var;
+    margin: 5px;
+
 }
 
 .header h1 {
-    display: inline-block;
+    display: block;
     font-size: 40px;
     color: var(--gold);
 }
@@ -33,7 +37,7 @@ body {
     display: inline-flex;
     list-style-type: none;
     font-size: 40px;
-    /* margin-right: 10px; */
+    margin-right: 10px;
     float: inline-end right;
 }
 
@@ -43,12 +47,62 @@ a {
 }
 
 .container-image {
+    display: block;
+    margin: 0 auto;
     padding:20px;
     height: auto;
-    max-width: 25%;
+    background-color: var(--charcoal);
 }
 
 #self {
     height: auto;
     max-width: 100%;
+}
+
+.container-bricks {
+position: relative;
+text-align: center;
+}
+
+.centered {
+    background-color: var(--charcoal);
+}
+
+h3 {
+    color: var(--charcoal);
+    font-size: 32px;
+}
+
+#the {
+    background-color: var(--gold);
+    max-width: fit-content;
+
+}
+
+p {
+    color: var(--charcoal);
+}
+
+h1 {
+    position: flex;
+    text-align: left;
+}
+
+h1:hover {
+    color: var(--black);
+
+} */
+
+.button {
+    display:block;
+    position: relative;
+
+}
+
+.sr-only {
+    display: none;
+
+}
+#resume {
+    display: none;
 }
