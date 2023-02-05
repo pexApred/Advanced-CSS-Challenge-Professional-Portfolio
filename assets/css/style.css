@@ -6,27 +6,34 @@
     --royal-blue:#4169e1;
 }
 
+* {
+    
+}
+
 body {
     position: relative;
-    background-color: var(--white);
+    /* background-color: var(--white); */
 }
 
 .header {
-    margin: 0;
-    padding: 1%;
+    padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: var(--white);
+    background-color: var(--charcoal);
+    color: var(--gold);
 }
 
 .container {
-    margin: 5px;
+    padding-right: 15px;
+    padding-left:15px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 .header h1 {
     display: block;
     font-size: 40px;
-    color: var(--gold);
+    /* color: var(--gold); */
 }
 
 .header div nav {
@@ -43,7 +50,7 @@ body {
 
 a {
     text-decoration: none;
-    color:var(--gold);
+    /* color:var(--gold); */
 }
 
 .container-image {
@@ -51,7 +58,7 @@ a {
     margin: 0 auto;
     padding:20px;
     height: auto;
-    background-color: var(--charcoal);
+    /* background-color: var(--charcoal); */
 }
 
 #self {
@@ -65,22 +72,22 @@ text-align: center;
 }
 
 .centered {
-    background-color: var(--charcoal);
+    /* background-color: var(--charcoal); */
 }
 
 h3 {
-    color: var(--charcoal);
+    /* color: var(--charcoal); */
     font-size: 32px;
 }
 
 #the {
-    background-color: var(--gold);
+    /* background-color: var(--gold); */
     max-width: fit-content;
 
 }
 
 p {
-    color: var(--charcoal);
+    /* color: var(--charcoal); */
 }
 
 h1 {
@@ -89,7 +96,7 @@ h1 {
 }
 
 h1:hover {
-    color: var(--black);
+    /* color: var(--black); */
 
 } */
 
