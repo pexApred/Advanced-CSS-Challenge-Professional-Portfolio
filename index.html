@@ -28,7 +28,7 @@
                 <h1>Emmanuel Lakis</h1>
                 <ul class="nav" role="navigation">
                     <li><a href="#page-top" class="nav-link">Home</a></li>
-                    <li><a href="#my-life" class="nav-link">About</a></li>
+                    <li><a href="#life" class="nav-link">About</a></li>
                     <li><a href="#work" class="nav-link">Work</a></li>
                     <li><a href="#contact-me" class="nav-link">Contact</a></li>
                     <!-- <li><a href="#resume" class="nav-link">Resume</a></li> -->
@@ -38,18 +38,13 @@
                     <ion-icon class="bars" name="menu-outline"></ion-icon>
                 </button> -->
             </nav> 
-        </div>
-        <!-- Work Section: titled images of developer's applications: First application should be larger in size then the rest -->
-        <!-- Image of application should have a link to the deployed application -->
-        <!-- Flex-boxes should be present to accomidate viewport, different sizes and devices -->    
+        </div>  
     </header>
-
+    <div id="hero">
+        <img src= "assets/images/IMG_3173.JPG" alt= "animated photo of Emmanuel" loading="lazy" id="self">
+    </div>
     <Main>
-        <div id="hero">
-            <img src= "assets/images/IMG_3173.JPG" alt= "animated photo of Emmanuel" loading="lazy" id="self">
-        </div>
-
-        <section class="my-life" id="my-life">
+        <section class="life" id="life">
             <!-- About Me -->
             <h2>The Way I Am</h2>
             <div>
@@ -93,36 +88,34 @@
             </div>
         </section>
 
-        
         <section class="work" id="work">
-            <h2 class="work-header">My Work</h2>
-            <div>
-                <section class="work-wrapper">
+            <!-- My Works Section -->
+            <h2>My Work</h2>
                     <!-- Icons added from font awesome -->
-                    <div>
-                        <i class="fa-solid fa-code" alt="coding symbol"> Coding Ventures</i>
-                        <i class="fa-solid fa-kitchen-set"> Chef Skills</i>
-                        <i class="fa-solid fa-people-roof"> Kitchen Design</i>   
+                    <div class="symbols">
+                        <i class="fa-solid fa-code" alt="coding symbol"></i>
+                        <i class="fa-solid fa-kitchen-set" alt="kitchen set symbol"></i>
+                        <i class="fa-solid fa-people-roof" alt="people under roof symbol"></i>   
                     </div>
-                    <div>
-                        <i class="fa-solid fa-camera-retro"> Photography</i>
-                        <i class="fa-solid fa-video"> Stop Motion Animation</i>
-                        <i class="fa-solid fa-music"> Apollo & The Chef</i>
+                    <div class="symbols">
+                        <i class="fa-solid fa-camera-retro" alt="retro camera symbol"></i>
+                        <i class="fa-solid fa-video" alt="video symbol"></i>
+                        <i class="fa-solid fa-music" alt="music symbol"></i>
                     </div>
-                </section>
-            </div>
         </section>
-          <div class="contact-container">
-                <h3 id="contact-me">Contact Me</h3>
-                <ul>
-                    <li><a href="tel:843.439.0946"><i class="fa-solid fa-phone"></i>843.439.0946</a></li>
-                    <li><a href="mailto:manolilakis@gmail.com"><i class="fa-regular fa-paper-plane"></i>manolilakis@gmail.com</a></li>
-                    <li><a href="https://github.com/pexApred"><i class="fa-brands fa-github"></i>GitHub</a></li>
-                    <li><a href="https://open.spotify.com/user/1245989088?si=da5fcd47e1554a6e"><i class="fa-brands fa-spotify"></i>Spotify</a></li>
-                    <li><a href="https://linkedin.com/in/emmanuellakis"><i class="fa-brands fa-linkedin"></i>LinkedIn</a></li>
-                </ul>
-            </div>
     </Main>
+
+    <footer class="contact-container">
+        <h3 id="contact-me">Contact Me</h3>
+        <div> | </div>
+        <ul>
+            <li><a href="tel:843.439.0946"><i class="fa-solid fa-phone"></i>843.439.0946</a></li>
+            <li><a href="mailto:manolilakis@gmail.com"><i class="fa-regular fa-paper-plane"></i>manolilakis@gmail.com</a></li>
+            <li><a href="https://github.com/pexApred"><i class="fa-brands fa-github"></i>GitHub</a></li>
+            <li><a href="https://open.spotify.com/user/1245989088?si=da5fcd47e1554a6e"><i class="fa-brands fa-spotify"></i>Spotify</a></li>
+            <li><a href="https://linkedin.com/in/emmanuellakis"><i class="fa-brands fa-linkedin"></i>LinkedIn</a></li>
+        </ul>
+    </footer>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"

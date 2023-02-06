@@ -32,6 +32,9 @@ body {
 }
 
 .header {
+    position: sticky;
+    top: 0;
+    left: 0;
     width: 100%;
     align-items: center;
 }
@@ -42,9 +45,6 @@ body {
 }
 
 nav {
-    position: sticky;
-    top: 0;
-    left: 0;
     z-index: 1;
     display: flex;
     flex-wrap: wrap;
@@ -96,9 +96,9 @@ a:hover {
 } */
 
 #hero {
+    overflow: hidden;
     height:25vh;
     width:100%;
-    position:relative;
     background-size: cover;
     background-position: center;
     background-image: url("/Advanced-CSS-Challenge-Professional-Portfolio/assets/images/IMG_0082.JPG");
@@ -108,91 +108,101 @@ a:hover {
     padding:1% 1% 1% 1%;
     width:auto;
     height: 100%;
-    /* max-height: 244px; */
 }
 
-@media only screen and (max-width: 768px){
-   #self {
-        width:auto;
-        height:100%;
-    }
-
-    ul {
-        display: block;
-        justify-content: left;
-    }
-
+main {
+    display:flex;
+    flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 390px){
-    #hero {
-        background-image: var(--hidden);
-    }
-
-    #self {
-        width:auto;
-        height:100%;
-    }
-
-    nav {
-
-    }
-}
-
-.my-life {
+.life {
     padding: 2%;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
-    gap: 2.5rem;
-    max-width: 68.75rem;
-    margin: auto;
+    justify-content:flex-start; */
+    gap: 5%;
+    width: 100%;
+    margin-left: 2%;
 }
 
 .card  {
     padding: 2%;
     border-left: 1px solid var(--charcoal);
-    height: 100%;
-}
-
-em {
-    display: block;
 }
 
 .work {
     padding:2%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2.5rem;
-    max-width: 68.75rem;
-    margin: auto;
+    width: 100%;
+    margin-left: 2%;
   }
 
-  .work header {
-    margin-bottom: 1rem;
+.symbols {
+    padding: 2%;
+    border-left: 1px solid var(--charcoal);
+    width: 100%;
+  }
+  .fa-code {
+    background-color: var(--gold);
+
+  }
+  .work-wrapper .fa-solid {
+    display:flex;
+        flex-grow: 4;
+    justify-content: space-evenly;
+    background-color: var(--white);
+    padding:75px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px var(--gold);
   }
 
-  .work-wrapper {
+#fa-code {
+    background-color: var(--gold);
+    flex-grow:4;
+}
+
+.work-wrapper .fa-kitchen-set, .fa-people-roof {
+    flex-grow:0;
+}
+  
+footer {
+    color:var(--gold);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    justify-content: center;
-    padding: 2%;
-  }
-
-  .work-wrapper .fa-solid {
-    margin: 30px;
-    width: auto;
-    height: 100%;
-    background-color: var(--gold);
-    padding:20px;
-  }
-
-  .contact-container {
-    display:flex;
-    flex-wrap: wrap;
     background-color: var(--charcoal);
     width: 100%;
 }
+
+footer div {
+    padding: 2%;
+    background-color: var(--gold);
+}
+
+@media only screen and (max-width: 768px){
+    #self {
+         width:auto;
+         height:100%;
+     }
+ 
+     ul {
+         display: block;
+         justify-content: left;
+     }
+ 
+ }
+ 
+ @media only screen and (max-width: 390px){
+     #hero {
+         background-image: var(--hidden);
+     }
+ 
+     #self {
+         width:auto;
+         height:100%;
+     }
+ 
+     nav {
+ 
+     }
+ }
+  */
