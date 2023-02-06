@@ -1,23 +1,103 @@
+/* Variables */
 :root {
     --white:#fff;
     --black:#000000;
     --gold: #d5b61e;
     --charcoal:#36454f;
-    --royal-blue:#4169e1;
+    --font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --normal-font: 700;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+    --line-height: 1.7rem;
+    --transition: 0.3s;
+
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+/* Global Resets */
 * {
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 1%;
+    border-radius: 1px;
+    background-color: var(--charcoal);
+    list-style-type: none;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+li {
+    font-weight: var(--bolder);
+}
+
+a {
+    text-decoration: none;
+    color: var(--gold);
+    /* transition: var(--transition); */
+    padding: 75px;
+}
+
+a:hover {
+    color: var(--white);
+    text-decoration: underline;
+    border-bottom: 2 px solid var(--charcoal);
+}
+
+.button {
+    color: var(--charcoal);
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
 }
 
 body {
-    position: relative;
-    /* background-color: var(--white); */
+    font-family: var(--font-family);
 }
 
+.container {
+    padding: 2px;
+    background-color: var(--white);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: var(--gold);
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+    padding: 1%;
+    border-radius: 2px;
+    background-color: var(--charcoal);
+    color: var(--gold);
+}
+
+
+
+
+/*
 .header {
     padding: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: var(--charcoal);
     color: var(--gold);
 }
@@ -30,10 +110,10 @@ body {
 
 }
 
-.header h1 {
+ .header h1 {
     display: block;
     font-size: 40px;
-    /* color: var(--gold); */
+    color: var(--gold);
 }
 
 .header div nav {
@@ -48,17 +128,12 @@ body {
     float: inline-end right;
 }
 
-a {
-    text-decoration: none;
-    /* color:var(--gold); */
-}
-
 .container-image {
     display: block;
     margin: 0 auto;
     padding:20px;
     height: auto;
-    /* background-color: var(--charcoal); */
+    background-color: var(--charcoal);
 }
 
 #self {
@@ -66,50 +141,11 @@ a {
     max-width: 100%;
 }
 
-.container-bricks {
-position: relative;
-text-align: center;
-}
-
-.centered {
-    /* background-color: var(--charcoal); */
-}
-
-h3 {
-    /* color: var(--charcoal); */
-    font-size: 32px;
-}
-
-#the {
-    /* background-color: var(--gold); */
-    max-width: fit-content;
-
-}
-
-p {
-    /* color: var(--charcoal); */
-}
-
 h1 {
     position: flex;
     text-align: left;
 }
 
-h1:hover {
-    /* color: var(--black); */
-
-} */
-
-.button {
-    display:block;
-    position: relative;
-
-}
-
-.sr-only {
-    display: none;
-
-}
 #resume {
     display: none;
-}
+} */
