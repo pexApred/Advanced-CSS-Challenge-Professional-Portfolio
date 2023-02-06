@@ -12,9 +12,7 @@
     <link rel="stylesheet" href="./assets/css/normalize.css"/> 
     <link rel="stylesheet" href="./assets/css/style.css"/>
     <!-- Animate CSS CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Emmanuel Lakis | Web Developer</title>
     <script src="https://kit.fontawesome.com/76444ace6e.js" crossorigin="anonymous"></script>
 </head>
@@ -36,9 +34,9 @@
                     <!-- <li><a href="#resume" class="nav-link">Resume</a></li> -->
                  <!-- links above need to scroll to each section associated -->
                 </ul>
-                <button class="button" id="button">
+                <!-- <button class="button" id="button">
                     <ion-icon class="bars" name="menu-outline"></ion-icon>
-                </button>
+                </button> -->
             </nav> 
         </div>
         <!-- Work Section: titled images of developer's applications: First application should be larger in size then the rest -->
@@ -47,91 +45,74 @@
     </header>
 
     <Main>
-        <div id="container-hero">
+        <div id="hero">
             <img src= "assets/images/IMG_3173.JPG" alt= "animated photo of Emmanuel" loading="lazy" id="self">
-            <img src= "https://i.pinimg.com/564x/8a/52/d8/8a52d87a6ae36fabf116cb2d7c35376d.jpg" alt= "office photo" loading="lazy" id="office"> 
         </div>
-        <section class="hero" id="my-life">
-        
-            <h2 class="bio-title">The Way I Am</h2>
-                <div class="bio animate__animated animate__shakeX">
-                    <h3><div id="the">The Birth</div></h3>
+
+        <section class="my-life" id="my-life">
+            <!-- About Me -->
+            <h2>The Way I Am</h2>
+            <div>
+                <div class="card">
+                    <h3> Birth & Personal Growth</h3>
                     <div>
-                        <p class="bio-text">Γεια σας...! Born in Crete, Greece, raised in Bennettsville, South Carolina, Emmanuel began his life with ...</p>
+                        <p>Γεια σας...! Born in Crete, Greece, raised in Bennettsville, South Carolina, Emmanuel began his life with </p>
                     </div>
-                    <div class="container-education">
-                        <h3>Education</h3>
-                        <p class="bio-text">
-                            <em>Wofford College</em>
-                            <em>2009-2013</em>
-                            Graduated with Bachelor's Degree in Applied Science (B.A.Sc.), Chemistry
-                        </p>
-                        <p class="bio-text">
-                            <em>Johnson & Wales University</em>
-                            <em>2018-2019</em>
-                            Associates degree in Culinary Arts/Chef Training
-                        </p>
-                        <p class="bio-text">
-                            <em>The University of North Carolina at Chapel Hill</em>
-                            <em>Currently Enrolled</em>
-                            The Coding Boot Camp, full-stack web development
-                        </p>
-                    </div>
-                    <div>
-                        <h3>Professional Status</h3>
-                        <p class="bio-text">
-                            Owner & Operator of Pizza Time Inc in Bennettsville, SC, Emmanuel has served his community since 2016.
-                        </p>
-                        <h3>Personal Status</h3>
-                        <p class="bio-text">
-                            Living in Raleigh, NC and getting married to the love of my life in October.
-                        </p>
-                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Education</h3>
+                    <p>
+                        <em>Wofford College</em>
+                        <em>2009-2013</em>
+                        Graduated with Bachelor's Degree in Applied Science (B.A.Sc.), Chemistry
+                    </p>
+                    <p>
+                        <em>Johnson & Wales University</em>
+                        <em>2018-2019</em>
+                        Associates degree in Culinary Arts/Chef Training
+                    </p>
+                    <p>
+                        <em>The University of North Carolina at Chapel Hill</em>
+                        <em>Currently Enrolled</em>
+                        The Coding Boot Camp, full-stack web development
+                    </p>
+                </div>
+                
+                <div class="card">
+                    <h3>Professional Status</h3>
+                    <p>
+                        Owner & Operator of Pizza Time Inc in Bennettsville, SC, Emmanuel has served his community since 2016.
+                    </p>
+
+                    <h3>Personal Status</h3>
+                    <p>
+                        Living in Raleigh, NC and getting married to the love of his life in October.
+                    </p>
                 </div>
             </div>
         </section>
 
         
         <section class="work" id="work">
+            <h2 class="work-header">My Work</h2>
             <div>
-                <h2 class="work-header">My Work</h2>
-                <section class="first-set animate__animated animate__pulse" class="card">
+                <section class="work-wrapper">
+                    <!-- Icons added from font awesome -->
                     <div>
-                        <!-- Icon added from font awesome -->
-                        <i class="fa-solid fa-code" alt="coding symbol"> Coding</i>
+                        <i class="fa-solid fa-code" alt="coding symbol"> Coding Ventures</i>
+                        <i class="fa-solid fa-kitchen-set"> Chef Skills</i>
+                        <i class="fa-solid fa-people-roof"> Kitchen Design</i>   
                     </div>
                     <div>
-                        <i class="fa-solid fa-kitchen-set"> Chef Manoli</i>
-                    </div>
-                    <div>
-
+                        <i class="fa-solid fa-camera-retro"> Photography</i>
+                        <i class="fa-solid fa-video"> Stop Motion Animation</i>
+                        <i class="fa-solid fa-music"> Apollo & The Chef</i>
                     </div>
                 </section>
-                <section class="card">
-                  </section>
-                  <section class="card">
-                    <header>Toilet Paper</header>
-                    <img src="./assets/images/toilet-paper.jpg" alt="toilet paper" />
-                    <p>Price: $30</p>
-                  </section>
-                  <section class="card">
-                    <header>Wooden Spoons</header>
-                    <img src="./assets/images/wooden-spoons.jpg" alt="wooden spoons" />
-                    <p>Price: $10</p>
-                  </section>
-                  <section class="card">
-                    <header>Soap</header>
-                    <img src="./assets/images/soap.jpg" alt="soap" />
-                    <p>Price: $5</p>
-                  </section>
-                  <section class="card">
-                    <header>Spinning Top</header>
-                    <img src="./assets/images/spinning-top.jpg" alt="spinning top" />
-                    <p>Price: $3</p>
-                  </section>
             </div>
-
-            <div class="contact-container">
+        </section>
+          <div class="contact-container">
                 <h3 id="contact-me">Contact Me</h3>
                 <ul>
                     <li><a href="tel:843.439.0946"><i class="fa-solid fa-phone"></i>843.439.0946</a></li>
@@ -141,7 +122,6 @@
                     <li><a href="https://linkedin.com/in/emmanuellakis"><i class="fa-brands fa-linkedin"></i>LinkedIn</a></li>
                 </ul>
             </div>
-        </section>
     </Main>
     <script
       type="module"
