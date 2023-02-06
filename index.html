@@ -16,6 +16,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Emmanuel Lakis | Web Developer</title>
+    <script src="https://kit.fontawesome.com/76444ace6e.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="page-top">
@@ -32,7 +33,7 @@
                     <li><a href="#my-life" class="nav-link">About</a></li>
                     <li><a href="#work" class="nav-link">Work</a></li>
                     <li><a href="#contact-me" class="nav-link">Contact</a></li>
-                    <li><a href="#resume" class="nav-link">Resume</a></li>
+                    <!-- <li><a href="#resume" class="nav-link">Resume</a></li> -->
                  <!-- links above need to scroll to each section associated -->
                 </ul>
                 <button class="button" id="button">
@@ -46,29 +47,31 @@
     </header>
 
     <Main>
+        <div id="container-hero">
+            <img src= "assets/images/IMG_3173.JPG" alt= "animated photo of Emmanuel" loading="lazy" id="self">
+            <img src= "https://i.pinimg.com/564x/8a/52/d8/8a52d87a6ae36fabf116cb2d7c35376d.jpg" alt= "office photo" loading="lazy" id="office"> 
+        </div>
         <section class="hero" id="my-life">
-            <div class="container-hero">
-                <img src= "assets/images/IMG_3173.JPG" alt= "animated photo of Emmanuel" loading="lazy" style="width: 25%;" id= "self">
-            </div>
-            <h2>The Way I Am</h2>
-                <div class="centered">
+        
+            <h2 class="bio-title">The Way I Am</h2>
+                <div class="bio animate__animated animate__shakeX">
                     <h3><div id="the">The Birth</div></h3>
                     <div>
-                        <p>Γεια σας...! Born in Crete, Greece, raised in Bennettsville, South Carolina, Emmanuel began his life with ...</p>
+                        <p class="bio-text">Γεια σας...! Born in Crete, Greece, raised in Bennettsville, South Carolina, Emmanuel began his life with ...</p>
                     </div>
                     <div class="container-education">
                         <h3>Education</h3>
-                        <p>
+                        <p class="bio-text">
                             <em>Wofford College</em>
                             <em>2009-2013</em>
                             Graduated with Bachelor's Degree in Applied Science (B.A.Sc.), Chemistry
                         </p>
-                        <p>
+                        <p class="bio-text">
                             <em>Johnson & Wales University</em>
                             <em>2018-2019</em>
                             Associates degree in Culinary Arts/Chef Training
                         </p>
-                        <p>
+                        <p class="bio-text">
                             <em>The University of North Carolina at Chapel Hill</em>
                             <em>Currently Enrolled</em>
                             The Coding Boot Camp, full-stack web development
@@ -76,36 +79,68 @@
                     </div>
                     <div>
                         <h3>Professional Status</h3>
-                        <p>
-                            Owner & Operator of Pizza Time INC in Bennettsville, SC, Emmanuel has served his community since 2016.
+                        <p class="bio-text">
+                            Owner & Operator of Pizza Time Inc in Bennettsville, SC, Emmanuel has served his community since 2016.
                         </p>
-                        <p>
+                        <h3>Personal Status</h3>
+                        <p class="bio-text">
                             Living in Raleigh, NC and getting married to the love of my life in October.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
-            <div>
-                <h2 id="work">My Work</h2>
-                <div>
 
-                </div>
+        
+        <section class="work" id="work">
+            <div>
+                <h2 class="work-header">My Work</h2>
+                <section class="first-set animate__animated animate__pulse" class="card">
+                    <div>
+                        <!-- Icon added from font awesome -->
+                        <i class="fa-solid fa-code" alt="coding symbol"> Coding</i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-kitchen-set"> Chef Manoli</i>
+                    </div>
+                    <div>
+
+                    </div>
+                </section>
+                <section class="card">
+                  </section>
+                  <section class="card">
+                    <header>Toilet Paper</header>
+                    <img src="./assets/images/toilet-paper.jpg" alt="toilet paper" />
+                    <p>Price: $30</p>
+                  </section>
+                  <section class="card">
+                    <header>Wooden Spoons</header>
+                    <img src="./assets/images/wooden-spoons.jpg" alt="wooden spoons" />
+                    <p>Price: $10</p>
+                  </section>
+                  <section class="card">
+                    <header>Soap</header>
+                    <img src="./assets/images/soap.jpg" alt="soap" />
+                    <p>Price: $5</p>
+                  </section>
+                  <section class="card">
+                    <header>Spinning Top</header>
+                    <img src="./assets/images/spinning-top.jpg" alt="spinning top" />
+                    <p>Price: $3</p>
+                  </section>
             </div>
 
             <div class="contact-container">
-                <h2 id="contact-me">Contact Me</h2>
+                <h3 id="contact-me">Contact Me</h3>
                 <ul>
-                    <li><a href="tel:843.439.0946">843.439.0946</a></li>
-                    <li><a href="mailto:manolilakis@gmail.com">manolilakis@gmail.com</a></li>
-                    <li><a href="https://github.com/pexApred">GitHub</a></li>
-                    <li><a href="https://open.spotify.com/user/1245989088?si=da5fcd47e1554a6e">Spotify</a></li>
-                    <li><a href="https://linkedin.com/in/emmanuellakis">LinkedIn</a></li>
+                    <li><a href="tel:843.439.0946"><i class="fa-solid fa-phone"></i>843.439.0946</a></li>
+                    <li><a href="mailto:manolilakis@gmail.com"><i class="fa-regular fa-paper-plane"></i>manolilakis@gmail.com</a></li>
+                    <li><a href="https://github.com/pexApred"><i class="fa-brands fa-github"></i>GitHub</a></li>
+                    <li><a href="https://open.spotify.com/user/1245989088?si=da5fcd47e1554a6e"><i class="fa-brands fa-spotify"></i>Spotify</a></li>
+                    <li><a href="https://linkedin.com/in/emmanuellakis"><i class="fa-brands fa-linkedin"></i>LinkedIn</a></li>
                 </ul>
             </div>
-
-            <h2 id="resume">Resume</h2>
         </section>
     </Main>
     <script

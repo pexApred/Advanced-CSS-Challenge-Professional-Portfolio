@@ -92,8 +92,55 @@ h1 {
     color: var(--gold);
 }
 
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+}
 
+.bio {
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  }
+  
+  .bio h1 {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+  .bio p {
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
+}
 
+/* #self {
+    height: auto;
+    max-width: 100%;
+} */
+
+#container-hero{
+    width: 500px;
+    height: 1000px;
+}
+
+#container-hero img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.contact-container {
+    display:flex;
+    flex-wrap: wrap;
+    background-color: var(--charcoal);
+}
+
+h3 {
+    font-size:xx-large;
+}
 
 /*
 .header {
