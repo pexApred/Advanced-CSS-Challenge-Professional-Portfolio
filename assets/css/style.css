@@ -254,13 +254,3 @@ main {
         display: inline-flex;  
         max-width: 720px;
     }
-  
-  /* Desktops */
-  @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    /* styles for desktops go here */
-  }
-  
-  /* Large desktops */
-  @media only screen and (min-width: 1200px) {
-    /* styles for large desktops go here */
-  }
