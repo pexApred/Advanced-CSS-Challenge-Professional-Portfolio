@@ -20,6 +20,7 @@ html {
     box-sizing: border-box;
     font-family: var(--font-family);
 }
+/* Nav Bar */
 nav {
     z-index: 1;
     display: flex;
@@ -28,6 +29,18 @@ nav {
     justify-content: space-between;
 }
 
+ul {
+    font-weight: bolder;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul {
+    flex-wrap: wrap;
+}
+
+/* Font Details */
 h1 {
     color: var(--charcoal);
     margin-left: 2%;
@@ -46,21 +59,6 @@ h4 {
     padding-right: 8px;
 }
 
-.work-cards p {
-    color: var(--charcoal);
-    background-color: var(--gold);
-}
-
-ul {
-    font-weight: bolder;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-nav ul {
-    flex-wrap: wrap;
-}
 a {
     text-decoration: none;
     padding: 20px 40px;
@@ -70,7 +68,7 @@ a {
 footer a {
     color: var(--gold);
 }
-
+/* Hover Pseudo Class applied to nav */
 nav a:hover {
     color: var(--gold);
     text-decoration: underline;
@@ -86,6 +84,7 @@ a:hover {
 body {
     background-color: var(--gold);
 }
+/* Flex Applied to Main body */
 main {
     display:flex;
     flex-wrap: wrap;
@@ -105,7 +104,7 @@ main {
     background-color: var(--white);
     box-shadow: 0 10px var(--gold);
 }
-
+/* Main Photos */
 #hero {
     overflow: hidden;
     height:25vh;
@@ -120,7 +119,7 @@ main {
     width:auto;
     height: 100%;
 }
-
+/* The Way I Am */
 .about {
     padding: 2%;
     width: 100%;
@@ -134,7 +133,7 @@ main {
     padding: 2%;
     border-left: 1px solid var(--gold);
 }
-
+/* My Works Section */
 .work {
     padding:2%;
     width: 100%;
@@ -149,7 +148,7 @@ main {
     text-align: start;
   }
 
-  .work-cards section {
+.work-cards section {
     display:flex;
     align-items: flex-end;
     justify-content: flex-start;
@@ -193,6 +192,11 @@ main {
     height: 250px;
 }
 
+.work-cards p {
+    color: var(--charcoal);
+    background-color: var(--gold);
+}
+/* Footer Details */
 .contact-container {
     color:var(--gold);
     display: flex;
