@@ -231,6 +231,11 @@ main {
 
     ul {
         justify-content: left;
+        display: block;
+    }
+
+    .work-cards {
+        display:block;
     }
 
     /* Stack elements vertically instead of horizontally */
