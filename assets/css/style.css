@@ -21,6 +21,19 @@ html {
     font-family: var(--font-family);
 }
 /* Nav Bar */
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.container {
+    padding: 2px;
+    background-color: var(--white);
+    box-shadow: 0 10px var(--gold);
+}
 nav {
     z-index: 1;
     display: flex;
@@ -91,19 +104,7 @@ main {
     background-color: var(--gold);
 }
 
-.header {
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-    align-items: center;
-}
 
-.container {
-    padding: 2px;
-    background-color: var(--white);
-    box-shadow: 0 10px var(--gold);
-}
 /* Main Photos */
 #hero {
     overflow: hidden;
