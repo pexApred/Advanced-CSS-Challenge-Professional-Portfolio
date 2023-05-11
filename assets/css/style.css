@@ -248,7 +248,7 @@ main {
         padding: 10px;
         margin: 0;
     }
-  
+}
     /* Tablets */
     /* styles for tablets go here */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -263,3 +263,4 @@ main {
         display: inline-flex;  
         max-width: 720px;
     }
+}
