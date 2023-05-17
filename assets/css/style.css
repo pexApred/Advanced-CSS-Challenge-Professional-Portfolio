@@ -1,10 +1,10 @@
 /* Variables */
 :root {
-    --white:#fff;
-    --black:#000000;
+    --white: #fff;
+    --black: #000000;
     --gold: #d5b61e;
-    --charcoal:#36454f;
-    --font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --charcoal: #36454f;
+    --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     --hidden: none;
     --salmon: #febbaf;
     --teal: #c3e4d7;
@@ -22,6 +22,7 @@ html {
     box-sizing: border-box;
     font-family: var(--font-family);
 }
+
 /* Nav Bar */
 .header {
     position: sticky;
@@ -36,19 +37,20 @@ nav {
     margin: 0% 0% 0% 0%;
     z-index: 1;
     /* flex-wrap: wrap; */
-    align-items: center;  
+    align-items: center;
     background-color: var(--charcoal);
     border-top: 1px solid var(--salmon);
     /* box-shadow: 0px 0px 10px 5px var(--salmon) inset; */
 }
 
 .nav-group {
-    width:100%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     list-style: none;
 }
+
 /* 
 nav ul {
     display: flex;
@@ -64,7 +66,7 @@ h1 {
 
 .name {
     margin-left: 2%;
-    background-color: var(--teal);    
+    background-color: var(--teal);
     padding: 1%;
 }
 
@@ -82,7 +84,7 @@ h1 {
 }
 
 h2 {
-    color:var(--teal);
+    color: var(--teal);
     font-size: xx-large;
 }
 
@@ -108,7 +110,7 @@ h4 {
     color: var(--charcoal);
     text-decoration: underline;
     background-color: var(--teal);
-    padding: 2%;    
+    padding: 2%;
     /* border-bottom: 2 px solid var(--white); */
 }
 
@@ -117,17 +119,19 @@ body {
     background-image: url('https://wallpapers.com/images/high/blank-white-square-patterns-qasj9pctfbx09e9m.webp');
 
 }
+
 /* Flex Applied to Main body */
 main {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     /* background-color: var(--white); */
 }
 
 img {
     max-width: 100%;
-    height:auto;
+    height: auto;
 }
+
 /* Main Photos */
 #hero {
     margin: 0;
@@ -135,7 +139,7 @@ img {
     height: 50vh;
     background-size: cover;
     background-position: center;
-    background-image: url("/assets/images/Pink\ And\ Green\ Motivation\ Quote\ LinkedIn\ Banner.png");
+    background-image: url("/assets/images/Pink And Green Motivation Quote LinkedIn Banner.png");
 }
 
 #self {
@@ -145,12 +149,13 @@ img {
     height: 100%;
     border-radius: 50%;
 }
+
 /* The Way I Am */
 .about {
     padding: 2%;
     width: 100%;
     margin: 0%;
-    color:var(--teal);
+    color: var(--teal);
     background-color: var(--charcoal);
     border: 2px solid var(--salmon);
 }
@@ -159,11 +164,12 @@ img {
     padding: 2%;
     border-left: 1px solid var(--salmon);
 }
+
 /* My Works Section */
 .work {
     display: flex;
     flex-wrap: wrap;
-    padding:2%;
+    padding: 2%;
     width: 100%;
     margin: 0%;
     background-color: var(--charcoal);
@@ -189,10 +195,10 @@ img {
     border: 1px solid var(--salmon);
 }
 
-.card-img-top {
+/* .card-img-top {
     /* padding: 2%;
-    border-left: 1px solid var(--gold); */
-}
+    border-left: 1px solid var(--gold);
+} */
 
 .card-body {
     background-color: var(--teal);
@@ -205,9 +211,9 @@ img {
 
 .ftul {
     font-size: larger;
-    margin:0% 0% 0% 0%;
-    color:var(--teal);
-    display: flex;    
+    margin: 0% 0% 0% 0%;
+    color: var(--teal);
+    display: flex;
     background-color: var(--charcoal);
     align-items: center;
     font-weight: bolder;
@@ -223,8 +229,9 @@ footer a {
     /* margin-right: 2%; */
 }
 
-  /* Mobile devices */
+/* Mobile devices */
 @media only screen and (max-width: 767px) {
+
     /* styles for mobile devices go here */
     /* Change font size to be more readable on small screens */
     body {
@@ -236,8 +243,8 @@ footer a {
     } */
 
     #self {
-        width:auto;
-        height:100%;
+        width: auto;
+        height: 100%;
     }
 
     ul {
@@ -246,11 +253,12 @@ footer a {
     }
 
     .work-cards {
-        display:block;
+        display: block;
     }
 
     /* Stack elements vertically instead of horizontally */
-    nav, .contact-container {
+    nav,
+    .contact-container {
         flex-direction: column;
     }
 
@@ -260,18 +268,20 @@ footer a {
         margin: 0;
     }
 }
-    /* Tablets */
-    /* styles for tablets go here */
+
+/* Tablets */
+/* styles for tablets go here */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
     /* Increase font size for improved readability */
     body {
         font-size: 18px;
     }
-    
-        /* Adjust layout for tablet screen size */
-    nav, 
+
+    /* Adjust layout for tablet screen size */
+    nav,
     .contact-container {
-        display: inline-flex;  
+        display: inline-flex;
         max-width: 720px;
     }
 }
