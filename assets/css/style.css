@@ -116,7 +116,7 @@ h4 {
 
 body {
     background-color: var(--white);
-    background-image: url('https://wallpapers.com/images/high/blank-white-square-patterns-qasj9pctfbx09e9m.webp');
+    /* background-image: url('https://wallpapers.com/images/high/blank-white-square-patterns-qasj9pctfbx09e9m.webp'); */
 
 }
 
@@ -226,6 +226,7 @@ img {
 
 footer a {
     color: var(--teal);
+    list-style: none;
     /* margin-right: 2%; */
 }
 
@@ -281,7 +282,7 @@ footer a {
     /* Adjust layout for tablet screen size */
     nav,
     .contact-container {
-        display: inline-flex;
+        /* display: inline-flex; */
         max-width: 720px;
     }
 }
