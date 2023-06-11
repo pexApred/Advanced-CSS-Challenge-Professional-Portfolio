@@ -1,0 +1,243 @@
+/* Variables */
+:root {
+    --white: #fff;
+    --black: #000000;
+    --gold: #d5b61e;
+    --charcoal: #36454f;
+    --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --hidden: none;
+    --salmon: #febbaf;
+    --teal: #c3e4d7;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Mobile devices */
+  @media only screen and (max-width: 767px) {
+    /* Global Resets */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: var(--font-family);
+    }
+  
+    /* Adjust font size for improved readability */
+    body {
+      font-size: 16px;
+    }
+  
+    /* Adjust layout for small screens */
+    .header {
+      position: sticky;
+      top: 0;
+      left: 0;
+      align-items: center;
+    }
+  
+    nav {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      z-index: 1;
+      align-items: center;
+      background-color: var(--charcoal);
+      border-top: 1px solid var(--salmon);
+    }
+  
+    .nav-group {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      text-align: center;
+      list-style: none;
+    }
+  
+    h1 {
+      width: 100%;
+      color: var(--charcoal);
+    }
+  
+    .name {
+      margin-left: 2%;
+      background-color: var(--teal);
+      padding: 1%;
+    }
+  
+    .icons {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 0;
+      padding: 1%;
+      font-size: x-large;
+      color: var(--teal);
+      background-color: var(--charcoal);
+      border-bottom: 1px solid var(--salmon);
+      box-shadow: 0px 0px 5px 2.5px var(--salmon) inset;
+    }
+  
+    h2 {
+      color: var(-- teal);
+      font-size: xx-large;
+    }
+  
+    h4 {
+      color: var(--charcoal);
+      background-color: var(--salmon);
+      padding-right: 8px;
+    }
+  
+    .nav-link {
+      text-decoration: none;
+      color: var(--teal);
+    }
+  
+    .nav-link:hover {
+      color: var(--charcoal);
+      text-decoration: underline;
+      background-color: var(--teal);
+      padding: 2%;
+    }
+  
+    body {
+      background-color: var(--white);
+    }
+  
+    main {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    #hero {
+      margin: 0;
+      overflow: hidden;
+      height: 50vh;
+      background-size: cover;
+      background-position: center;
+      background-image: url("/assets/images/Pink And Green Motivation Quote LinkedIn Banner.png");
+    }
+  
+    #self {
+      padding: 10% 2% 2%;
+      width: auto;
+      height: 100%;
+      border-radius: 50%;
+    }
+  
+    .about {
+      padding: 2%;
+      width: 100%;
+      margin: 0%;
+      color: var(--teal);
+      background-color: var(--charcoal);
+      border: 2px solid var(--salmon);
+    }
+  
+    .acard {
+      padding: 2%;
+      border-left: 1px solid var(--salmon);
+    }
+  
+    .work {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 2%;
+      width: 100%;
+      margin: 0%;
+      background-color: var(--charcoal);
+      border: 2px solid var(--salmon);
+    }
+  
+    .work h2 {
+      width: 100%;
+    }
+  
+    .card-container {
+      padding: 2%;
+      border-left: 1px solid var(--salmon);
+    }
+  
+    .card-container1 {
+      padding: 2%;
+    }
+  
+    .card {
+      width: 18rem;
+      margin-left: 2%;
+      border: 1px solid var(--salmon);
+    }
+  
+    .card-body {
+      background-color: var(--teal);
+    }
+  
+    .ftul {
+      font-size: larger;
+      margin: 0% 0% 0% 0%;
+      color: var(--teal);
+      display: flex;
+      background-color: var(--charcoal);
+      align-items: center;
+      font-weight: bolder;
+      list-style: none;
+      justify-content: space-evenly;
+      padding: 1%;
+      border: 2px solid var(--salmon);
+    }
+  
+    footer a {
+      color: var(--teal);
+    }
+  
+    /* Adjust specific styles for mobile devices */
+  
+    /* Example: Adjust padding and margins */
+    .nav-group {
+      padding: 10px 0;
+      margin: 0;
+    }
+  
+    .icons {
+      padding: 10px;
+      margin: 0;
+    }
+  
+    .about,
+    .work,
+    .card-container {
+      padding: 10px;
+    }
+  
+    .card {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  
+    /* Example: Hide hero image on mobile */
+    #hero {
+      background-image: var(--hidden);
+    }
+  }
+  
+  /* Tablets */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Adjust font size for improved readability */
+    body {
+      font-size: 18px;
+    }
+  
+    /* Adjust layout for tablet screen size */
+    nav,
+    .contact-container {
+      display: inline-flex;
+      max-width: 720px;
+    }
+  }
