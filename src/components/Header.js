@@ -4,40 +4,40 @@ import '../styles/Header.css';
 function Header() {
     return (
         <header className="header">
-            <div class="icons">
-                <i class="devicon-javascript-plain"></i>
+            <div className="icons">
+                <i className="devicon-javascript-plain"></i>
 
-                <i class="devicon-nodejs-plain"></i>
+                <i className="devicon-nodejs-plain"></i>
 
-                <i class="devicon-mysql-plain-wordmark"></i>
+                <i className="devicon-mysql-plain-wordmark"></i>
 
-                <i class="devicon-css3-plain"></i>
+                <i className="devicon-css3-plain"></i>
 
-                <i class="devicon-html5-plain"></i>
+                <i className="devicon-html5-plain"></i>
 
-                <i class="devicon-handlebars-plain-wordmark"></i>
+                <i className="devicon-handlebars-plain-wordmark"></i>
 
-                <i class="devicon-express-original"></i>
+                <i className="devicon-express-original"></i>
 
-                <i class="devicon-eslint-original"></i>
+                <i className="devicon-eslint-original"></i>
 
-                <i class="devicon-git-plain"></i>
+                <i className="devicon-git-plain"></i>
 
-                <i class="devicon-jest-plain"></i>
+                <i className="devicon-jest-plain"></i>
 
-                <i class="devicon-npm-original-wordmark"></i>
+                <i className="devicon-npm-original-wordmark"></i>
 
-                <i class="devicon-npm-original-wordmark"></i>
+                <i className="devicon-npm-original-wordmark"></i>
 
-                <i class="devicon-react-original-wordmark"></i>
+                <i className="devicon-react-original-wordmark"></i>
 
-                <i class="devicon-sequelize-plain"></i>
+                <i className="devicon-sequelize-plain"></i>
 
-                <i class="devicon-vscode-plain"></i>
+                <i className="devicon-vscode-plain"></i>
 
-                <i class="devicon-bulma-plain"></i>
+                <i className="devicon-bulma-plain"></i>
 
-                <i class="devicon-canva-original"></i>
+                <i className="devicon-canva-original"></i>
 
             </div>
         </header>

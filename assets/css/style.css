@@ -1,86 +1,12 @@
-/* Variables */
-:root {
-    --white: #fff;
-    --black: #000000;
-    --gold: #d5b61e;
-    --charcoal: #36454f;
-    --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    --hidden: none;
-    --salmon: #febbaf;
-    --teal: #c3e4d7;
-
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-/* Global Resets */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: var(--font-family);
-}
-
-/* Nav Bar */
-.header {
-    position: sticky;
-    top: 0;
-    left: 0;
-    align-items: center;
-}
-
-nav {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0% 0% 0% 0%;
-    z-index: 1;
-    /* flex-wrap: wrap; */
-    align-items: center;
-    background-color: var(--charcoal);
-    border-top: 1px solid var(--salmon);
-    /* box-shadow: 0px 0px 10px 5px var(--salmon) inset; */
-}
-
-.nav-group {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    list-style: none;
-}
-
-/* 
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-} */
-/* Font Details */
 h1 {
     width: 100%;
     color: var(--charcoal);
-
-
 }
 
 .name {
     margin-left: 2%;
     background-color: var(--teal);
     padding: 1%;
-}
-
-.icons {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 0% 0% 0% 0%;
-    padding: 1%;
-    font-size: x-large;
-    color: var(--teal);
-    background-color: var(--charcoal);
-    border-bottom: 1px solid var(--salmon);
-    box-shadow: 0px 0px 5px 2.5px var(--salmon) inset;
 }
 
 h2 {
@@ -94,31 +20,12 @@ h4 {
     padding-right: 8px;
 }
 
-.nav-link {
-    text-decoration: none;
-    color: var(--teal);
-}
-
 /* Hover Pseudo Class applied to nav */
 /* .nav-link:hover {
     color: var(--gold);
     text-decoration: underline;
     background-color: var(--charcoal);
 } */
-
-.nav-link:hover {
-    color: var(--charcoal);
-    text-decoration: underline;
-    background-color: var(--teal);
-    padding: 2%;
-    /* border-bottom: 2 px solid var(--white); */
-}
-
-body {
-    background-color: var(--white);
-    /* background-image: url('https://wallpapers.com/images/high/blank-white-square-patterns-qasj9pctfbx09e9m.webp'); */
-
-}
 
 /* Flex Applied to Main body */
 main {
@@ -208,27 +115,6 @@ img {
 /* .contact-container {
     margin: 2%;
 } */
-
-.ftul {
-    font-size: larger;
-    margin: 0% 0% 0% 0%;
-    color: var(--teal);
-    display: flex;
-    background-color: var(--charcoal);
-    align-items: center;
-    font-weight: bolder;
-    list-style: none;
-    justify-content: space-evenly;
-    padding: 1%;
-    border: 2px solid var(--salmon);
-}
-
-
-footer a {
-    color: var(--teal);
-    list-style: none;
-    /* margin-right: 2%; */
-}
 
 /* Mobile devices */
 @media only screen and (max-width: 767px) {

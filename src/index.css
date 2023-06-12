@@ -1,0 +1,27 @@
+:root {
+    --white: #fff;
+    --black: #000000;
+    --gold: #d5b61e;
+    --charcoal: #36454f;
+    --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --hidden: none;
+    --salmon: #febbaf;
+    --teal: #c3e4d7;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+body {
+    background-color: var(--white);
+}
+
