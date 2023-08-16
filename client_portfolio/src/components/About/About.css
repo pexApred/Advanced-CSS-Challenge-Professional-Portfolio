@@ -1,0 +1,21 @@
+/* .about {
+    padding-top: 12%;
+} */
+
+.header-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-size: 100px;
+    border: 2px solid black;
+}
+
+.body-about {
+    font-size: 20px;
+    /* background-color: white; */
+    /* color: goldenrod; */
+    margin: 0rem 12rem;
+}
