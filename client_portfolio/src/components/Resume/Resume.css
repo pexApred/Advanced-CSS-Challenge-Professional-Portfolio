@@ -15,11 +15,22 @@
 
 .body-resume {
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
     /* background-color: white; */
     /* color: goldenrod; */
-    margin: 0rem 12rem;
 }
 
+.faFile {
+    font-size: 80px;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.faFile:hover {
+    color: white;
+    background-color: #333;
+}
 .view {
     text-decoration: none;
     color: black

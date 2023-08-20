@@ -1,5 +1,5 @@
 .nav {
-    position: fixed;
+    position: static;
     top: 0;
     padding-bottom: 2.5rem;
     left: 0;

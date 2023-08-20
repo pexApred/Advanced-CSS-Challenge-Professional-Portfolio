@@ -18,7 +18,7 @@ const contactLinks = [
     },
     {
         title: 'Phone',
-        link: 'tel:843.439.0946',
+        link: 'tel:919.714.9693',
         icon: faPhone,
     },
     {
@@ -31,7 +31,7 @@ const contactLinks = [
 function Contact() {
     return (
         <>
-            <Accordion eventKey="0" className="contact-container" flush>
+            <Accordion defaultkey="0" className="contact-container" flush>
                 <Accordion.Item eventKey="0" className="">
                     <Accordion.Header className="header-contact text-center">Contact Me</Accordion.Header>
                     <Accordion.Body className="body-contact">

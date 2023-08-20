@@ -12,14 +12,14 @@ import Contact from './components/Contact/Contact';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Navigation/>
+      {/* <Navigation/> */}
       <Profile/>
       <About/>
       <Project/>
       <Resume/>
       <Contact/>
-      {/* <Footer/> */}
+      {/* <Footer/> */}      
+      {/* <Header/> */}
     </div>
   );
 }
